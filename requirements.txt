@@ -1,0 +1,15 @@
+langchain                     
+langchain-core                
+langchain-community           
+langchain-groq               
+langchain-text-splitters      
+streamlit                     
+python-dotenv                 
+setuptools                    
+pillow                        
+langchain-tavily
+logfire
+pydantic
+deepeval
+logfire[httpx]
+ipykernel
