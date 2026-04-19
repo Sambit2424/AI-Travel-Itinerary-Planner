@@ -1,0 +1,18 @@
+from langchain_community.utilities import GoogleSerperAPIWrapper
+from src.config.config import SERPER_API_KEY
+from src.utils.logger import get_logger
+from langchain_core.tools import tool
+
+logger = get_logger(__name__)
+
+def google_serper_search_tool(query:str) -> str:
+    """
+    Search the web using Google Serper API and return the results as a string.
+    """
+    search  = GoogleSerperAPIWrapper(
+        serper_api_key=SERPER_API_KEY
+    )
+
+    return search.run(query)
+
+
