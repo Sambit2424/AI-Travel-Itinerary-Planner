@@ -5,6 +5,7 @@ from langchain_core.tools import tool
 
 logger = get_logger(__name__)
 
+@tool
 def google_serper_search_tool(query:str) -> str:
     """
     Search the web using Google Serper API and return the results as a string.
@@ -14,5 +15,7 @@ def google_serper_search_tool(query:str) -> str:
     )
 
     return search.run(query)
+
+logger.info("Google Serper tool is ready.")
 
 
