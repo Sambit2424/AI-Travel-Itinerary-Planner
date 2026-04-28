@@ -1,0 +1,8 @@
+2026-04-28 21:59:47,678 - INFO - Configuration loaded successfully.
+2026-04-28 21:59:47,682 - INFO - Google Serper tool is ready.
+2026-04-28 21:59:47,752 - INFO - Tavily tool is ready.
+2026-04-28 21:59:48,288 - INFO - Travel agent created.
+2026-04-28 21:59:48,289 - INFO - TravelPlanner initialized.
+2026-04-28 22:00:42,455 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 22:00:50,125 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-28 22:00:50,133 - INFO - Response generated

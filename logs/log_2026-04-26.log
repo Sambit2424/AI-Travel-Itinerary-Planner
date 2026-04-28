@@ -1,0 +1,139 @@
+2026-04-26 18:14:17,530 - INFO - Configuration loaded successfully.
+2026-04-26 18:14:17,534 - INFO - Google Serper tool is ready.
+2026-04-26 18:14:17,613 - INFO - Tavily tool is ready.
+2026-04-26 18:14:18,269 - INFO - Travel agent created.
+2026-04-26 18:14:18,270 - INFO - TravelPlanner initialized.
+2026-04-26 18:19:37,277 - INFO - Configuration loaded successfully.
+2026-04-26 18:19:37,279 - INFO - Google Serper tool is ready.
+2026-04-26 18:19:37,309 - INFO - Tavily tool is ready.
+2026-04-26 18:19:37,490 - INFO - Travel agent created.
+2026-04-26 18:19:37,490 - INFO - TravelPlanner initialized.
+2026-04-26 18:25:51,877 - INFO - Configuration loaded successfully.
+2026-04-26 18:25:51,879 - INFO - Google Serper tool is ready.
+2026-04-26 18:25:51,906 - INFO - Tavily tool is ready.
+2026-04-26 18:25:52,084 - INFO - Travel agent created.
+2026-04-26 18:25:52,084 - INFO - TravelPlanner initialized.
+2026-04-26 18:34:52,540 - INFO - Configuration loaded successfully.
+2026-04-26 18:34:52,542 - INFO - Google Serper tool is ready.
+2026-04-26 18:34:52,570 - INFO - Tavily tool is ready.
+2026-04-26 18:34:52,765 - INFO - Travel agent created.
+2026-04-26 18:34:52,766 - INFO - TravelPlanner initialized.
+2026-04-26 18:41:28,106 - INFO - Configuration loaded successfully.
+2026-04-26 18:41:28,108 - INFO - Google Serper tool is ready.
+2026-04-26 18:41:28,136 - INFO - Tavily tool is ready.
+2026-04-26 18:41:28,328 - INFO - Travel agent created.
+2026-04-26 18:41:28,329 - INFO - TravelPlanner initialized.
+2026-04-26 20:20:03,040 - INFO - Configuration loaded successfully.
+2026-04-26 20:20:03,042 - INFO - Google Serper tool is ready.
+2026-04-26 20:20:03,070 - INFO - Tavily tool is ready.
+2026-04-26 20:20:03,285 - INFO - Travel agent created.
+2026-04-26 20:20:03,285 - INFO - TravelPlanner initialized.
+2026-04-26 20:20:54,077 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 20:21:00,761 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 20:21:00,773 - INFO - Response generated
+2026-04-26 20:25:23,390 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 20:25:31,492 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 20:25:31,501 - INFO - Response generated
+2026-04-26 20:27:23,210 - INFO - Configuration loaded successfully.
+2026-04-26 20:27:23,212 - INFO - Google Serper tool is ready.
+2026-04-26 20:27:23,240 - INFO - Tavily tool is ready.
+2026-04-26 20:27:23,411 - INFO - Travel agent created.
+2026-04-26 20:27:23,412 - INFO - TravelPlanner initialized.
+2026-04-26 20:28:20,923 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 20:28:27,576 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 20:28:27,581 - INFO - Response generated
+2026-04-26 20:42:11,763 - INFO - Configuration loaded successfully.
+2026-04-26 20:42:11,765 - INFO - Google Serper tool is ready.
+2026-04-26 20:42:11,792 - INFO - Tavily tool is ready.
+2026-04-26 20:42:11,965 - INFO - Travel agent created.
+2026-04-26 20:42:11,966 - INFO - TravelPlanner initialized.
+2026-04-26 20:43:18,044 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 20:43:25,311 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 20:43:25,318 - INFO - Response generated
+2026-04-26 20:49:29,863 - INFO - Configuration loaded successfully.
+2026-04-26 20:49:29,865 - INFO - Google Serper tool is ready.
+2026-04-26 20:49:29,893 - INFO - Tavily tool is ready.
+2026-04-26 20:49:30,088 - INFO - Travel agent created.
+2026-04-26 20:49:30,088 - INFO - TravelPlanner initialized.
+2026-04-26 20:51:44,600 - INFO - Configuration loaded successfully.
+2026-04-26 20:51:44,604 - INFO - Google Serper tool is ready.
+2026-04-26 20:51:44,640 - INFO - Tavily tool is ready.
+2026-04-26 20:51:44,858 - INFO - Travel agent created.
+2026-04-26 20:51:44,859 - INFO - TravelPlanner initialized.
+2026-04-26 20:53:13,945 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 20:53:19,134 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-04-26 20:53:19,142 - ERROR - Error in planning trip: Error code: 413 - {'error': {'message': 'Request too large for model `llama-3.3-70b-versatile` in organization `org_01kgjbh4pzfvb8n0dywhj1krjx` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 14268, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-04-26 20:58:30,901 - INFO - Configuration loaded successfully.
+2026-04-26 20:58:30,903 - INFO - Google Serper tool is ready.
+2026-04-26 20:58:30,931 - INFO - Tavily tool is ready.
+2026-04-26 20:58:31,103 - INFO - Travel agent created.
+2026-04-26 20:58:31,104 - INFO - TravelPlanner initialized.
+2026-04-26 20:59:04,817 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 20:59:10,602 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-04-26 20:59:10,605 - ERROR - Error in planning trip: Error code: 413 - {'error': {'message': 'Request too large for model `llama-3.3-70b-versatile` in organization `org_01kgjbh4pzfvb8n0dywhj1krjx` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 17199, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-04-26 21:01:25,935 - INFO - Configuration loaded successfully.
+2026-04-26 21:01:25,938 - INFO - Google Serper tool is ready.
+2026-04-26 21:01:25,973 - INFO - Tavily tool is ready.
+2026-04-26 21:01:26,177 - INFO - Travel agent created.
+2026-04-26 21:01:26,178 - INFO - TravelPlanner initialized.
+2026-04-26 21:03:03,261 - INFO - Configuration loaded successfully.
+2026-04-26 21:03:03,263 - INFO - Google Serper tool is ready.
+2026-04-26 21:03:03,290 - INFO - Tavily tool is ready.
+2026-04-26 21:03:03,459 - INFO - Travel agent created.
+2026-04-26 21:03:03,459 - INFO - TravelPlanner initialized.
+2026-04-26 21:08:18,912 - INFO - Configuration loaded successfully.
+2026-04-26 21:08:18,914 - INFO - Google Serper tool is ready.
+2026-04-26 21:08:18,943 - INFO - Tavily tool is ready.
+2026-04-26 21:08:19,152 - INFO - Travel agent created.
+2026-04-26 21:08:19,153 - INFO - TravelPlanner initialized.
+2026-04-26 21:10:28,873 - INFO - Configuration loaded successfully.
+2026-04-26 21:10:28,876 - INFO - Google Serper tool is ready.
+2026-04-26 21:10:28,909 - INFO - Tavily tool is ready.
+2026-04-26 21:10:29,087 - INFO - Travel agent created.
+2026-04-26 21:10:29,087 - INFO - TravelPlanner initialized.
+2026-04-26 21:12:50,506 - INFO - Configuration loaded successfully.
+2026-04-26 21:12:50,508 - INFO - Google Serper tool is ready.
+2026-04-26 21:12:50,534 - INFO - Tavily tool is ready.
+2026-04-26 21:12:50,709 - INFO - Travel agent created.
+2026-04-26 21:12:50,710 - INFO - TravelPlanner initialized.
+2026-04-26 21:13:13,414 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 21:13:18,614 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-04-26 21:13:18,616 - ERROR - Error in planning trip: Error code: 413 - {'error': {'message': 'Request too large for model `llama-3.3-70b-versatile` in organization `org_01kgjbh4pzfvb8n0dywhj1krjx` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 17253, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-04-26 21:40:55,357 - INFO - Configuration loaded successfully.
+2026-04-26 21:40:55,359 - INFO - Google Serper tool is ready.
+2026-04-26 21:40:55,390 - INFO - Tavily tool is ready.
+2026-04-26 21:40:55,744 - INFO - Travel agent created.
+2026-04-26 21:40:55,745 - INFO - TravelPlanner initialized.
+2026-04-26 21:43:19,667 - INFO - Configuration loaded successfully.
+2026-04-26 21:43:19,670 - INFO - Google Serper tool is ready.
+2026-04-26 21:43:19,698 - INFO - Tavily tool is ready.
+2026-04-26 21:43:19,869 - INFO - Travel agent created.
+2026-04-26 21:43:19,870 - INFO - TravelPlanner initialized.
+2026-04-26 21:46:05,319 - INFO - Configuration loaded successfully.
+2026-04-26 21:46:05,321 - INFO - Google Serper tool is ready.
+2026-04-26 21:46:05,348 - INFO - Tavily tool is ready.
+2026-04-26 21:46:05,513 - INFO - Travel agent created.
+2026-04-26 21:46:05,514 - INFO - TravelPlanner initialized.
+2026-04-26 21:47:23,408 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 21:47:28,234 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-04-26 21:47:28,236 - ERROR - Error in planning trip: Error code: 413 - {'error': {'message': 'Request too large for model `llama-3.1-8b-instant` in organization `org_01kgjbh4pzfvb8n0dywhj1krjx` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Requested 8852, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-04-26 21:54:31,065 - INFO - Configuration loaded successfully.
+2026-04-26 21:54:31,067 - INFO - Google Serper tool is ready.
+2026-04-26 21:54:31,093 - INFO - Tavily tool is ready.
+2026-04-26 21:54:31,269 - INFO - Travel agent created.
+2026-04-26 21:54:31,270 - INFO - TravelPlanner initialized.
+2026-04-26 21:55:06,564 - INFO - Configuration loaded successfully.
+2026-04-26 21:55:06,566 - INFO - Google Serper tool is ready.
+2026-04-26 21:55:06,596 - INFO - Tavily tool is ready.
+2026-04-26 21:55:06,773 - INFO - Travel agent created.
+2026-04-26 21:55:06,774 - INFO - TravelPlanner initialized.
+2026-04-26 21:57:08,421 - INFO - Configuration loaded successfully.
+2026-04-26 21:57:08,422 - INFO - Google Serper tool is ready.
+2026-04-26 21:57:08,454 - INFO - Tavily tool is ready.
+2026-04-26 21:57:08,671 - INFO - Travel agent created.
+2026-04-26 21:57:08,671 - INFO - TravelPlanner initialized.
+2026-04-26 21:57:23,704 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 21:57:29,660 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-26 21:57:29,661 - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2026-04-26 21:57:39,015 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 21:57:39,019 - INFO - Response generated
