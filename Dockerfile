@@ -1,5 +1,5 @@
 ## Parent image
-FROM python:3.11-slim
+FROM python:3.12-slim
 
 ## Essential environment variables
 ENV PYTHONDONTWRITEBYTECODE=1 \
@@ -21,7 +21,10 @@ COPY . .
 RUN pip install --no-cache-dir -e .
 
 # Used PORTS
+# Streamlit is exposed on 8501 port
 EXPOSE 8501
 
-# Run the app 
+# Run the app
+# server address as 0.0.0.0 means that we are accepting traffic from all public IP addresses.
+# server.headless = true ensure that our app runs without a browser popup
 CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0","--server.headless=true"]
