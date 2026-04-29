@@ -1,4 +1,4 @@
-# We're doing two things here (based on parameter kind)
+# We're creating two components here (based on parameter kind)
 # 1) Deploying streamlit-app
 # 2) Creating a service for above deployment
 
@@ -18,10 +18,10 @@ spec:
       labels:
         app: streamlit
     spec:
-      containers:
+      containers: #Docker container details that will be used for deployment
         - name: streamlit-container
           image: streamlit-app:latest
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: IfNotPresent # This means that our app will look for image in our environment first, if not found then it'll look online
           ports:
             - containerPort: 8501
           envFrom:

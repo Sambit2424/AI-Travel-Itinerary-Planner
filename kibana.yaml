@@ -1,0 +1,39 @@
+# creating a deployment component for Kibana and then a service component for the deployment
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kibana
+  namespace: logging
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kibana
+  template:
+    metadata:
+      labels:
+        app: kibana
+    spec:
+      containers:
+        - name: kibana
+          image: docker.elastic.co/kibana/kibana:7.17.0
+          env:
+            - name: ELASTICSEARCH_HOSTS
+              value: http://elasticsearch:9200 #Receiving our inputs from 9200 port where elastic search
+          ports:
+            - containerPort: 5601 #This is the port where kibana is running
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: kibana
+  namespace: logging
+spec:
+  type: NodePort
+  selector:
+    app: kibana
+  ports:
+    - port: 5601
+      nodePort: 30601 
+
