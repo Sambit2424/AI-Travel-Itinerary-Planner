@@ -27,8 +27,7 @@ def plan_trip(data: Travelplanner) -> str:
     try:
         user_prompt = f"""
         Plan a {data.days}-day trip to {data.city} for me. I am interested in {', '.join(data.interests)}. I prefer a {data.style} travel style and a {data.pace} pace.
-        My budget for accommodation is around INR {data.accom_rate_per_day_inr} per day. I will be traveling in the month of {data.month}.
-        Provide a detailed day-wise itinerary.
+        My budget for accommodation is around INR {data.accom_rate_per_day_inr} per day. I will be traveling in the month of {data.month}. Provide a detailed day-wise itinerary.
         """
 
         # Update message history
