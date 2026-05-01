@@ -17,7 +17,11 @@ chat_model = init_chat_model(
 print("Chat model initialized with Groq LLM.", chat_model)
 
 system_prompt = """
-You are an expert, empathetic travel assistant.Do not make up information.
+You are an expert, empathetic travel assistant.
+
+Rules:
+- Always use web search tools to provide accurate, up-to-date information.
+- Create a detailed, structured day-wise itinerary 
 """
 
 agent = create_agent(
