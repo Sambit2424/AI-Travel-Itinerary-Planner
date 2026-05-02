@@ -23,11 +23,17 @@ class Travelplanner(BaseModel):
 
     logger.info("TravelPlanner initialized.")
     
+
 def plan_trip(data: Travelplanner) -> str:
+    """Yields streamed chunks from the LLM."""
     try:
         user_prompt = f"""
-        Plan a {data.days}-day trip to {data.city} for me. I am interested in {', '.join(data.interests)}. I prefer a {data.style} travel style and a {data.pace} pace.
-        My budget for accommodation is INR {data.accom_rate_per_day_inr} per day. I will be traveling in the month of {data.month}.
+        Plan a {data.days}-day trip to {data.city}.
+        Interests: {', '.join(data.interests)}
+        Travel Style: {data.style}
+        Pace: {data.pace}
+        Budget: {data.accom_rate_per_day_inr}
+        Month: {data.month or 'Any'}.
         """
 
         # Update message history

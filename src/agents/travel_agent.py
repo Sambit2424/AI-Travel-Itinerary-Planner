@@ -10,7 +10,7 @@ logger = get_logger(__name__)
 chat_model = init_chat_model(
     model="groq:llama-3.3-70b-versatile", # Specify the Groq LLM model to use
     temperature=0.3, # Temperature (range 0-1) controls the creativity of the responses. Lower values = more deterministic, higher values = increase randomness.
-    top_p=0.9, # Top-p (nucleus sampling) controls the diversity of the responses. The model considers only the most probable tokens whose cumulative probability exceeds top_p.
+    top_p=0.9, # Top-p (nucleus sampling) controls the diversity of the responses. The model considers only the most probable tokens whose cumulative probability adds upto 90%.
     max_tokens=1800, # Maximum number of tokens in the generated response. Adjust based on your needs and model limits.
 )
 
@@ -18,10 +18,7 @@ print("Chat model initialized with Groq LLM.", chat_model)
 
 system_prompt = """
 You are an expert, empathetic travel assistant.
-
-Rules:
-- Always use web search tools to provide accurate, up-to-date information.
-- Create a detailed, structured day-wise itinerary 
+Always use web search tools to create accurate, up-to-date, detailed, structured day-wise itinerary
 """
 
 agent = create_agent(

@@ -142,12 +142,22 @@ if submitted:
             accom_rate_per_day_inr=accom_rate_per_day_inr if accom_rate_per_day_inr > 0 else None
         )
 
-        itinerary = plan_trip(
-            data=planner
-        )
+        # itinerary = plan_trip(
+        #     data=planner
+        # )
 
-        st.subheader("📜 Your AI-Generated Travel Itinerary:")
-        st.markdown(itinerary)
+        # st.subheader("📜 Your AI-Generated Travel Itinerary:")
+        # st.markdown(itinerary)
+
+        with st.spinner("Planning your trip..."):
+            placeholder = st.empty()
+            full_response = ""
+    
+            for chunk in plan_trip(data=planner):  # make plan_trip yield chunks
+                full_response += chunk
+                placeholder.markdown(full_response + "▌")  # typewriter cursor
+    
+                placeholder.markdown(full_response)
 
         logger.info("Response generated")
     else:

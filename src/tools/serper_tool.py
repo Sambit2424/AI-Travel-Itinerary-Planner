@@ -8,7 +8,8 @@ logger = get_logger(__name__)
 @tool
 def google_serper_search_tool(query:str) -> str:
     """
-    Search the web using Google Serper API and return the results as a string.
+    Search Google via Serper API to fetch recent and reliable
+    real-world travel information for the given query.
     """
     search  = GoogleSerperAPIWrapper(
         serper_api_key=SERPER_API_KEY
