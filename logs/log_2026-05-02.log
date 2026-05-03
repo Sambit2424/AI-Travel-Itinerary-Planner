@@ -1,0 +1,11 @@
+2026-05-02 13:30:18,189 - INFO - Configuration loaded successfully.
+2026-05-02 13:30:18,202 - INFO - Google Serper tool is ready.
+2026-05-02 13:30:18,347 - INFO - Tavily tool is ready.
+2026-05-02 13:30:19,367 - INFO - Travel agent created.
+2026-05-02 13:30:19,368 - INFO - TravelPlanner initialized.
+2026-05-02 13:31:17,927 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 13:31:23,866 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 13:31:27,546 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-02 13:31:27,546 - INFO - Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2026-05-02 13:31:36,868 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-02 13:31:39,586 - INFO - Response generated
