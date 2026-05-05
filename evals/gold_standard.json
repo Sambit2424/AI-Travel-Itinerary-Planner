@@ -1,0 +1,213 @@
+{
+  "Paris": {
+    "input": {
+      "city": "Paris",
+      "days": 3,
+      "interests": [
+        "Impressionist Art",
+        "Michelin Star Dining",
+        "Seine River Cruises"
+      ],
+      "style": "Luxury",
+      "pace": "Relaxed",
+      "month": "June"
+    },
+    "ground_truth": "For a trip to Paris in June, the top attractions and events include a Seine River Cruise, visiting the Eiffel Tower, exploring the Louvre, taking a day trip to the Palace of Versailles, and experiencing the city's vibrant atmosphere during the F\u00eate de la Musique. These activities offer a mix of art, history, and entertainment that align with the interests in Impressionist Art, Michelin Star Dining, and Seine River Cruises. The summer solstice brings long days and beautiful weather, ideal for sightseeing and outdoor activities. The evenings can be filled with picnics in the city's gardens or musical nights under the stars. With plenty of sunlight, June is an excellent time to explore iconic sights and enjoy the city's magical ambiance.",
+    "essential_topics": [
+      "Seine River Cruises",
+      "Impressionist Art in Paris",
+      "Michelin Star Restaurants in Paris"
+    ],
+    "expected_queries": [
+      "Best Seine River Cruise options in Paris for June",
+      "Impressionist Art museums and exhibitions in Paris",
+      "Michelin Star dining experiences near the Eiffel Tower in Paris"
+    ],
+    "raw_context": "{'query': 'top attractions, events, and food recommendations for Paris in June for interests: Impressionist Art, Michelin Star Dining, Seine River Cruises', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.getyourguide.com/explorer/paris-ttd16/paris-in-june/', 'title': 'Visiting Paris in June: What To See and Do', 'content': \"# Everything you need to know about visiting Paris in June. From sunset cruises on the Seine to musical nights under the stars at the F\u00eate de la Musique, discover the best things to do in Paris in June. June brings a lively atmosphere to Paris, marked by the summer solstice and the longest days of the year. If you're wondering, \u201cWhat is Paris like in June?\u201d expect beautiful weather and plenty of sunlight, ideal for exploring iconic sights like the Eiffel Tower. Spend evenings picnicking in the city\u2019s gardens or floating past iconic landmarks on a Seine river cruise. There\u2019s also plenty of time to venture beyond the city for a day trip to magical Disneyland Paris or the magnificent Palace of Versailles, where the gardens are in full summer bloom. ### **Music is in the air for Paris's June f [TRUNCATED]\", 'score': 0.99776566, 'raw_content': None}, {'url': 'https://www.facebook.com/groups/RickStevesEurope/posts/1916925259023088/', 'title': \"Going to Paris in June, what are must sees While I'm there?\", 'content': \"1. Seine river cruise. Eiffel Tower - do it late in the day, you'll avoid the crowds and the sunset wil"
+  },
+  "Tokyo": {
+    "input": {
+      "city": "Tokyo",
+      "days": 5,
+      "interests": [
+        "Robotics & AI Hubs",
+        "Tsukiji Outer Market",
+        "Anime Culture"
+      ],
+      "style": "Mid-range",
+      "pace": "Packed",
+      "month": "October"
+    },
+    "ground_truth": "For a trip to Tokyo in October, the 5 absolute must-include attractions/events are: visiting the Tsukiji Outer Market for its fresh seafood and unique flavors, exploring the Tokyo robotics and AI hubs, experiencing the city's vibrant anime culture, taking a guided tour of the Tsukiji Fish Market, and sampling the local street food. The Tsukiji Outer Market is a great place to enjoy delicious food and shop for traditional handicrafts. The city's robotics and AI hubs offer a glimpse into the latest technological advancements, while the anime culture provides a unique and fascinating experience. The guided tour of the Tsukiji Fish Market provides a behind-the-scenes look at the market's operations, and the local street food offers a taste of the city's culinary delights.",
+    "essential_topics": [
+      "Tokyo Robotics and AI Hubs",
+      "Tsukiji Outer Market",
+      "Tokyo Anime Culture"
+    ],
+    "expected_queries": [
+      "top robotics and AI attractions in Tokyo",
+      "best food tours in Tsukiji Outer Market",
+      "Tokyo anime culture events in October"
+    ],
+    "raw_context": "{'query': 'top attractions, events, and food recommendations for Tokyo in October for interests: Robotics & AI Hubs, Tsukiji Outer Market, Anime Culture', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.tripadvisor.com/Attractions-g14129610-Activities-Tsukiji_Chuo_Tokyo_Tokyo_Prefecture_Kanto.html', 'title': 'THE 15 BEST Things to Do in Tsukiji (2026) - Must-See Attractions', 'content': 'Tokyo: Tsukiji Fish Market Food and Walking tour \u00b7 Tsukiji Fish Market: Behind the Scenes & 10 Seafood Tastings \u00b7 Tsukiji Fish Market: Street Food & Culture [TRUNCATED]', 'score': 0.9983516, 'raw_content': None}, {'url': 'https://www.klook.com/en-GB/destination/p50001563-tsukiji-outer-market/1-things-to-do/', 'title': 'Things to do in Tsukiji Outer Market - Japan', 'content': 'Find the top things to do in Tsukiji Outer Market, Japan! Get the best deals on attractions, tours, and other activities in Tsukiji Outer Market [TRUNCATED]', 'score': 0.99824536, 'raw_content': None}, {'url': 'https://in.trip.com/moments/poi-tsukiji-outer-market-136246871/', 'title': '[2026 Tokyo Attraction] Tsukiji Outer Market Travel Guide & Travel Experiences | Updated May | Trip Moments', 'content': \"# [2026 Tokyo Attraction] Tsukiji Outer Market Travel Guide & Travel Experiences | Updated May*\\uf592* Real-time travel info for Tsukiji Outer Market on 2026.5.4 Today's weather: Cloudy 13-28\u2103 Today's opening status: Open | Open: 08:00\u201314:00 Rating: 4.5/5.0 | 42 reviews | 775"
+  },
+  "Mumbai": {
+    "input": {
+      "city": "Mumbai",
+      "days": 3,
+      "interests": [
+        "UNESCO Heritage Sites",
+        "Marine Drive Seafront",
+        "Bollywood Tours"
+      ],
+      "style": "Mid-range",
+      "pace": "Balanced",
+      "month": "January"
+    },
+    "ground_truth": "The top 5 must-include attractions in Mumbai for January are: Marine Drive Seafront, Chhatrapati Shivaji Terminus (CSMT), Elephanta Caves, Gateway of India, and a Bollywood Tour. Marine Drive is a scenic promenade along the Arabian Sea, while CSMT and Elephanta Caves are UNESCO World Heritage sites. The Gateway of India is an iconic landmark, and a Bollywood Tour provides a glimpse into the Indian film industry. These attractions offer a mix of culture, history, and entertainment, making them essential for any trip to Mumbai.",
+    "essential_topics": [
+      "Mumbai UNESCO Heritage Sites",
+      "Marine Drive Seafront activities",
+      "Bollywood Tour bookings"
+    ],
+    "expected_queries": [
+      "top UNESCO Heritage Sites in Mumbai",
+      "things to do near Marine Drive Mumbai",
+      "Bollywood studio tour Mumbai booking"
+    ],
+    "raw_context": "{'query': 'top attractions, events, and food recommendations for Mumbai in January for interests: UNESCO Heritage Sites, Marine Drive Seafront, Bollywood Tours', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.tripadvisor.com/Attractions-g304554-Activities-Mumbai_Maharashtra.html', 'title': 'THE 15 BEST Things to Do in Mumbai (2026) - Must-See Attractions', 'content': 'Top Things to Do in Mumbai. Check out must-see sights and activities: Marine Drive, Shree Siddhivinayak, Aquariums, Cultural Tours. NEW. Find unique [TRUNCATED]', 'score': 0.82492816, 'raw_content': None}, {'url': 'https://www.viator.com/en-CA/Mumbai/d953-ttd', 'title': 'THE TOP 10 Mumbai Tours & Excursions in 2026 - Viator', 'content': 'You can take walking tours through Fort and Colaba, visit UNESCO World Heritage sites such as Chhatrapati Shivaji Terminus (CSMT) and Elephanta Caves [TRUNCATED]', 'score': 0.8184036, 'raw_content': None}, {'url': 'https://www.thrillophilia.com/places-to-visit-in-mumbai', 'title': '55 Places to Visit in Mumbai 2026, Tourist Places & Attractions', 'content': '# 55 Places to Visit in Mumbai. Marine Drive,\\xa0Gateway of India,\\xa0Chowpatty Beach, Siddhivinayak Temple,\\xa0Juhu Beach,\\xa0Dharavi Slum,\\xa0Worli Seaface,\\xa0Haji Ali,\\xa0Chhatrapati Shivaji Terminus , Aksa Beach, Versova Beach, Colaba Causeway Market, Chor Bazaar, Powai Lake , Kanheri Caves, Gorai Beach , Shivaji Park, ISKCON temple, Global Vipassana Pagoda, Mumbai Zoo and\\xa"
+  },
+  "Kerala": {
+    "input": {
+      "city": "Kerala",
+      "days": 4,
+      "interests": [
+        "Alleppey Houseboats",
+        "Ayurvedic Massages",
+        "Munnar Tea Plantations"
+      ],
+      "style": "Budget",
+      "pace": "Relaxed",
+      "month": "September"
+    },
+    "ground_truth": "The top attractions for a trip to Kerala in September include a 4-day private tour of Munnar and Alleppey, featuring Eravikulam National Park, houseboat cruises, and waterfalls. A village bike tour and birdwatching in Alappuzha are also must-include experiences. Additionally, a private deluxe tour of Cochin, Munnar, Thekkady, and a houseboat stay in Alleppey are essential. The backwaters and scenic houseboat stays in Alleppey offer a unique travel experience. Lastly, visiting the tea plantations in Munnar and indulging in Ayurvedic massages are absolute must-includes for a relaxing getaway.",
+    "essential_topics": [
+      "Alleppey Houseboats",
+      "Munnar Tea Plantations",
+      "Ayurvedic Massages"
+    ],
+    "expected_queries": [
+      "Kerala tour packages for September",
+      "Alleppey houseboat booking and itinerary",
+      "Munnar tea plantation tour and Ayurvedic massage packages"
+    ],
+    "raw_context": "{'query': 'top attractions, events, and food recommendations for Kerala in September for interests: Alleppey Houseboats, Ayurvedic Massages, Munnar Tea Plantations', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.getyourguide.com/kerala-l741/', 'title': 'The BEST Kerala Tours and Things to Do in 2026 - GetYourGuide', 'content': \"Explore Munnar and Alleppey's natural beauty and cultural heritage on a 4-day private tour, featuring Eravikulam National Park, houseboat cruises, waterfalls, [TRUNCATED]\", 'score': 0.79041743, 'raw_content': None}, {'url': 'https://www.tripadvisor.com/Attractions-g608471-Activities-Alappuzha_Alappuzha_District_Kerala.html', 'title': 'THE 15 BEST Things to Do in Alappuzha (2026) - Must-See Attractions', 'content': 'Village Bike Tour & Birdwatching \u00b7 4 Nights Private Deluxe Tour Cochin/Munnar/Thekkady/Houseboat \u00b7 Alleppey Backwater Tour Private Houseboat and Overnight Stay. [TRUNCATED]', 'score': 0.7440808, 'raw_content': None}, {'url': 'https://lotuslande.com/alleppey-trip-travel-guide-2026/', 'title': 'Alleppey Trip Travel Guide 2026: Places, Itinerary & Houseboat Tips', 'content': 'From peaceful backwaters and scenic houseboat stays to quiet beaches and village life, Alleppey offers a unique travel experience that you won\u2019t find anywhere else in India. Whether you\u2019re visiting for a relaxing getaway, a romantic trip, or a family vacation, this complete Alleppey travel guide will help you plan everything\u2014fr"
+  },
+  "Varanasi": {
+    "input": {
+      "city": "Varanasi",
+      "days": 2,
+      "interests": [
+        "Spirituality",
+        "Ghats",
+        "Old City",
+        "Rituals"
+      ],
+      "style": "Budget",
+      "pace": "Relaxed",
+      "month": "November"
+    },
+    "ground_truth": "The top attractions in Varanasi for a spiritual experience include attending the Ganga Aarti at Dashashwamedh Ghat, taking a sunrise boat ride on the Ganges, exploring the old city's ancient alleys, visiting various ghats such as Assi Ghat and Manikarnika Ghat, and participating in the Subah e Banaras morning rituals. These experiences capture the essence of Varanasi's spiritual and cultural heritage. Additionally, walking tours and street food crawls can provide a deeper understanding of the city's history, art, and human emotion. The city's serene atmosphere and rich cultural landscape make it an ideal destination for those seeking a spiritual and cultural experience.",
+    "essential_topics": [
+      "Varanasi ghats",
+      "Spiritual events in Varanasi",
+      "Old city walking tours"
+    ],
+    "expected_queries": [
+      "top spiritual attractions in Varanasi",
+      "best time to attend Ganga Aarti in Varanasi",
+      "guided walking tours in Varanasi old city"
+    ],
+    "raw_context": "{'query': 'top attractions, events, and food recommendations for Varanasi in November for interests: Spirituality, Ghats, Old City, Rituals', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.tripadvisor.com/Attractions-g297685-Activities-Varanasi_Varanasi_District_Uttar_Pradesh.html', 'title': 'THE 15 BEST Things to Do in Varanasi (2026) - Must-See Attractions', 'content': 'Walking Tours \u00b7 Varanasi Street Food Crawl (2 Hours Guided Food Tasting Tour) \u00b7 Special Offer \u00b7 Subah e Banaras Sunrise Boat Ride Morning Aarti and Rituals \u00b7 Hidden [TRUNCATED]', 'score': 0.83452857, 'raw_content': None}, {'url': 'https://www.varanasiguru.com/top-21-things-to-do-in-varanasi-2026-edition/', 'title': 'Top 21 Things To Do In Varanasi (2026 Edition) - Varanasi Guru', 'content': '# Top 21 Things to Do in Varanasi (2026 Edition). *A thoughtfully curated guide to India\u2019s spiritual and cultural capital*. Varanasi, also known as Kashi or Benares, is not just a destination \u2013 it\u2019s an experience. Believed to be one of the world\u2019s oldest living cities, Varanasi pulses with devotion, history, art, and raw human emotion. From serene boat rides on the Ganges to walking through ancient alleys echoing with chants, the city invites you to slow down, look deeper, and feel more. If you\u2019re planning a visit, here are 21 meaningful things to do in Varanasi that capture its essence. Attend the Ganga Aarti at Dashashwamedh Ghat. Arrive early to find a good spot, or view it"
+  },
+  "Kyoto": {
+    "input": {
+      "city": "Kyoto",
+      "days": 3,
+      "interests": [
+        "Temples",
+        "Zen Gardens",
+        "Traditional Tea"
+      ],
+      "style": "Mid-range",
+      "pace": "Relaxed",
+      "month": "April"
+    },
+    "ground_truth": "The top attractions and events in Kyoto for April include historic tea rooms in Uji, Gion, and near Kiyomizu-dera Temple for traditional tea ceremony experiences. Temples and gardens, such as those found in Kyoto, glow beneath soft pink canopies of cherry blossoms. Evening illuminations add a cinematic touch to historic landmarks. The city also hosts art festivals, traditional performances, and lively seasonal events, including the 'Light and Flower Garden' exhibition. Lastly, visitors can dress in a kimono and stroll through the city to fully immerse themselves in the culture. These experiences provide a well-rounded and unforgettable trip to Kyoto in April.",
+    "essential_topics": [
+      "Kyoto temples and zen gardens",
+      "Traditional Japanese tea ceremonies",
+      "Kyoto events and festivals in April"
+    ],
+    "expected_queries": [
+      "top temples and zen gardens in Kyoto for April visit",
+      "traditional Japanese tea ceremony experiences in Kyoto",
+      "Kyoto events and festivals in April 2026"
+    ],
+    "raw_context": "{'query': 'top attractions, events, and food recommendations for Kyoto in April for interests: Temples, Zen Gardens, Traditional Tea', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://sg.trip.com/travel-guide/destination/kyoto-430/', 'title': 'Kyoto Travel Guide 2026: Top Attractions, Things to Do & Deals', 'content': 'Historic tea rooms, such as those in Uji, Gion, and near Kiyomizu-dera Temple, provide insightful tea ceremony experiences. 6. Dress in a Kimono and Stroll [TRUNCATED]', 'score': 0.9998191, 'raw_content': None}, {'url': 'https://excursionmania.com/regions/kyoto-r313?srsltid=AfmBOor05w5CUssYukOlAoQm4FDA_ttMI1M2yOqeQO9jmC-RUOH-_1Sy', 'title': 'Top Things To Do In Kyoto April 2026, Attractions & Activities', 'content': 'Kyoto also boasts a thriving culinary scene, from kaiseki tasting menus to street food delights, and offers immersive cultural experiences, such as tea [TRUNCATED]', 'score': 0.9998074, 'raw_content': None}, {'url': 'https://arigatojapan.co.jp/things-to-do-kyoto-april-2026/?srsltid=AfmBOor-cPik_KvwHl-th2YPmmYNwYJtqGdEze_Uy0TfPZxUTh2MJWUX', 'title': 'THINGS TO DO IN KYOTO IN APRIL 2026 | Arigato Travel', 'content': '# THINGS TO DO IN KYOTO IN APRIL 2026. April is one of the most enchanting times to visit Kyoto, as the city fully awakens in a wash of cherry blossoms, light, and celebration. Temples and gardens glow beneath soft pink canopies, evening illuminations add a cinematic touch to historic landmarks, and"
+  },
+  "New York": {
+    "input": {
+      "city": "New York",
+      "days": 4,
+      "interests": [
+        "Shopping",
+        "Museums",
+        "Central Park",
+        "Skyline Views"
+      ],
+      "style": "Luxury",
+      "pace": "Packed",
+      "month": "May"
+    },
+    "ground_truth": "The top attractions and events in New York City in May include visiting Central Park, exploring the city's famous museums, and taking in the stunning skyline views. Manhattanhenge, a unique event where the sun aligns with the city's streets, is a must-see. The Brooklyn Botanic Garden and Frieze Art are also highly recommended. Additionally, visitors can enjoy Mother's Day events and explore iconic spots like Times Square, Grand Central Terminal, and Rockefeller Center. These attractions and events offer a mix of culture, nature, and entertainment that showcases the best of New York City in May.",
+    "essential_topics": [
+      "New York City attractions in May",
+      "Central Park events and activities",
+      "Skyline views and observation decks"
+    ],
+    "expected_queries": [
+      "top things to do in New York City in May",
+      "Central Park activities and events in May 2026",
+      "best skyline views in New York City for tourists"
+    ],
+    "raw_context": "{'query': 'top attractions, events, and food recommendations for New York in May for interests: Shopping, Museums, Central Park, Skyline Views', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.rockefellercenter.com/magazine/events/things-to-do-in-new-york-city-in-may/', 'title': 'What to Do in New York City in May 2026 - NYC - Rockefeller Center', 'content': \"Discover NYC in May 2026. Explore Brooklyn Botanic Garden, Central Park scavenger hunts, Manhattanhenge, Frieze Art, and Mother's Day events. [TRUNCATED]\", 'score': 0.9996486, 'raw_content': None}, {'url': 'https://www.expedia.co.uk/Things-To-Do-In-New-York.d234.Travel-Guide-Activities', 'title': '10 TOP Things to Do in New York May 2026 | Expedia', 'content': 'Popular places to visit \u00b7 Times Square \u00b7 Central Park \u00b7 Grand Central Terminal \u00b7 Madison Square Garden \u00b7 Statue of Liberty \u00b7 Rockefeller Center \u00b7 Broadway \u00b7 Yankee [TRUNCATED]', 'score': 0.99942964, 'raw_content': None}, {'url': 'https://www.getyourguide.com/new-york-city-l59/ttd/', 'title': 'The BEST Things to Do in New York City - Top Activities in 2026', 'content': 'NYC runs on energy: skyline views, museum giants, Broadway, and neighborhoods with real character. Eat your way from bagels to Michelin, catch the ferry, [TRUNCATED]', 'score': 0.99932814, 'raw_content': None}], 'response_time': 2.18, 'request_id': '20523848-da55-4182-9f59-9e6f3682f3a4'}"
+  },
+  "Rome": {
+    "input": {
+      "city": "Rome",
+      "days": 3,
+      "interests": [
+        "Coliseum",
+        "Vatican",
+        "Pasta",
+        "Ancient History"
+      ],
+      "style": "Mid-range",
+      "pace": "Balanced",
+      "month": "September"
+    },
+    "ground_truth": "The 5 absolute must-include attractions/events for a trip to Rome in September are: the Colosseum, a symbol of ancient Rome and one of the most recognizable landmarks in the world; the Vatican, offering an incredible cultural and spiritual experience; a pasta-tasting experience, as Rome is famous for its delicious pasta dishes; a visit to the Roman Forum, showcasing the city's ancient history; and a stroll through the charming neighborhood of Trastevere, known for its food, wine, and nightlife. These attractions will provide a well-rounded experience of Rome's ancient history, culture, and cuisine. Additionally, visiting the Capitoline Hill, one of Rome's Seven Hills, and trying gelato at Giolitti, one of Rome's most historic gelaterias, are also highly recommended. With these experiences, travelers can immerse themselves in the Eternal City's unique blend of old-world charm and modern Italian life.",
+    "essential_topics": [
+      "Rome attractions",
+      "Vatican tours",
+      "Italian cuisine"
+    ],
+    "expected_queries": [
+      "Rome travel guide September",
+      "Colosseum and Vatican tour",
+      "best pasta restaurants in Rome"
+    ],
+    "raw_context": "{'query': 'top attractions, events, and food recommendations for Rome in September for interests: Coliseum, Vatican, Pasta, Ancient History', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.santekagrigley.com/post/rome-italy-travel-guide-2026-top-things-to-see-eat-do', 'title': 'Rome, Italy Travel Guide 2026: Best Things to See, Eat & Experience', 'content': 'From iconic landmarks like the Colosseum and Vatican City to cozy wine bars and neighborhood trattorias, Rome offers an unforgettable blend of old-world charm and modern Italian life. This Rome, Italy travel guide will help you plan your trip with must-see attractions, where to eat and drink, cultural events, accommodations, local experiences, and tips for getting around the city with ease. * **Colosseum**\\xa0\u2013 One of the most recognizable landmarks in the world and a symbol of ancient Rome. * **Capitoline Hill**\\xa0\u2013 One of Rome\u2019s Seven Hills, home to historic piazzas, museums, and stunning city views designed by Michelangelo. * **Giolitti**\\xa0\u2013 One of Rome\u2019s most historic and well-known gelaterias. * **Trastevere**\\xa0\u2013 One of the best neighborhoods in Rome for food, wine, and nightlife. * **Traste [TRUNCATED]', 'score': 0.8815438, 'raw_content': None}, {'url': 'https://www.yoloplan.com/articles/rome-travel-guide-2026-best-places-to-visit-food-7-day-itinerary', 'title': 'Rome Travel Guide 2026: Best Places, Food, Itinerary & Hidden Gems | YoloPlan', 'content': '# Rome Travel"
+  }
+}
