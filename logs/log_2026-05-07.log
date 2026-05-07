@@ -159,3 +159,30 @@
 2026-05-07 22:59:55,352 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2026-05-07 22:59:58,171 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2026-05-07 22:59:58,989 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 23:39:48,229 - INFO - Configuration loaded successfully.
+2026-05-07 23:39:48,233 - INFO - Google Serper tool is ready.
+2026-05-07 23:39:48,297 - INFO - Tavily tool is ready.
+2026-05-07 23:39:48,811 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialization.
+2026-05-07 23:43:07,809 - INFO - Configuration loaded successfully.
+2026-05-07 23:43:07,812 - INFO - Google Serper tool is ready.
+2026-05-07 23:43:07,839 - INFO - Tavily tool is ready.
+2026-05-07 23:43:08,019 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialization.
+2026-05-07 23:43:47,640 - WARNING - Attempting to instrument while already instrumented
+2026-05-07 23:47:20,655 - INFO - Configuration loaded successfully.
+2026-05-07 23:47:20,657 - INFO - Google Serper tool is ready.
+2026-05-07 23:47:20,684 - INFO - Tavily tool is ready.
+2026-05-07 23:47:20,864 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialization.
+2026-05-07 23:48:22,305 - WARNING - Attempting to instrument while already instrumented
+2026-05-07 23:48:22,315 - INFO - Travel Planner initialized
+2026-05-07 23:48:23,791 - INFO - \U0001f3ac Agent Turn Started (History: 1 msgs)
+2026-05-07 23:48:24,504 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 23:48:24,634 - INFO - \u23f3 Catching breath (2s) for TPM refill...
+2026-05-07 23:48:31,954 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-07 23:48:31,958 - ERROR - Planner error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kgjbh4pzfvb8n0dywhj1krjx` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 93701, Requested 7360. Please try again in 15m16.704s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-07 23:48:41,901 - WARNING - Attempting to instrument while already instrumented
+2026-05-07 23:48:41,923 - INFO - Travel Planner initialized
+2026-05-07 23:48:41,933 - INFO - \U0001f3ac Agent Turn Started (History: 1 msgs)
+2026-05-07 23:48:42,589 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 23:48:42,747 - INFO - \u23f3 Catching breath (2s) for TPM refill...
+2026-05-07 23:48:50,867 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-07 23:48:50,869 - ERROR - Planner error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kgjbh4pzfvb8n0dywhj1krjx` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 96100, Requested 10219. Please try again in 1h30m59.616s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}

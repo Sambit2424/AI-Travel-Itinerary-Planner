@@ -1,17 +1,22 @@
 import warnings
-warnings.filterwarnings("ignore")
 
-import dotenv
+warnings.filterwarnings(
+    "ignore"
+)
+
 from dotenv import load_dotenv
-load_dotenv() # Load environment variables from .env file
+load_dotenv()  # ✅ must be FIRST
 
 import streamlit as st
-from src.core.planner import Travelplanner, plan_trip
-from src.utils.custom_exception import DetailedException
+import logfire
+from src.core.planner import TravelPlanner
 from src.utils.logger import get_logger
-import datetime
 
-# Setting up our watchman
+# Initialize Logfire Tracing
+logfire.configure()
+logfire.instrument_httpx()
+logfire.instrument_pydantic()
+
 logger = get_logger(__name__)
 
 st.set_page_config(page_title="AI Travel Planner", page_icon="✈️", layout="wide")
@@ -120,47 +125,58 @@ st.markdown("""
 
 st.title("🌍AI Travel Itinerary Planner")
 
-with st.form("travel_form"):
-    city = st.text_input("📌 City", placeholder="Enter the city you want to visit")
-    days = st.slider("⌛ Number of Days", min_value=1, max_value=30, value=3)
-    interests = st.text_input("🎯 Interests (enter comma-separated values)", placeholder="e.g., sightseeing, food, thrills")
-    style = st.selectbox("💰 Travel Style", options=["Budget", "Luxury", "Adventure", "Cultural"], index=0)
-    pace = st.selectbox("🚶‍♂️ Travel Pace", options=["Relaxed", "Moderate", "Fast"], index=1)
-    month = st.selectbox("📆 Month (optional)", options=["Any"] + ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], index=0)
-    accom_rate_per_day_inr = st.number_input("🏨 Accommodation Budget per Day (INR, optional)", min_value=500.0, step=100.0)
+with st.form("planner_form"):
+    city = st.text_input("📍 City")
+    days = st.slider("🗓️ Number of days", 1, 10, 3)
+    interests = st.text_input("🎯 Interests (comma-separated)")
+    style = st.selectbox("💰 Travel Style", ["Budget", "Mid-range", "Luxury"])
+    pace = st.selectbox("🚶 Pace", ["Relaxed", "Balanced", "Packed"])
+    month = st.selectbox("📅 Month (optional)", ["Any"] + [
+        "Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"
+    ])
 
-    submitted = st.form_submit_button("🪄 Generate Itinerary")
+    submitted = st.form_submit_button("✨ Generate Itinerary")
 
 if submitted:
-    if city and days:
-        planner = Travelplanner(city=city,
+    if city and interests:
+        planner = TravelPlanner()
+
+        result = planner.create_itinerary(
+            city=city,
             days=days,
             interests=[i.strip() for i in interests.split(",")],
             style=style,
             pace=pace,
-            month=month if month != "Any" else None,
-            accom_rate_per_day_inr=accom_rate_per_day_inr if accom_rate_per_day_inr > 0 else None
+            month=None if month == "Any" else month
         )
+        
+        itinerary = result["itinerary"]
 
-        # itinerary = plan_trip(
-        #     data=planner
-        # )
+        st.subheader(f"📄 Your {itinerary.total_days}-Day Plan for {itinerary.city} is ready")
+        
+        # Display General Tips
+        with st.expander("💡 General Travel Tips", expanded=True):
+            for tip in itinerary.travel_tips:
+                st.write(f"- {tip}")
+        
+        # Display Day-wise Itinerary
+        for day in itinerary.itinerary:
+            with st.expander(f"🗓️ Day {day.day_number}: {day.theme}", expanded=True):
+                cols = st.columns(len(day.activities))
+                for idx, activity in enumerate(day.activities):
+                    with cols[idx]:
+                        st.markdown(f"**{activity.time}**")
+                        st.markdown(f"📍 {activity.location}")
+                        st.write(activity.description)
+                
+                st.markdown("---")
+                st.markdown("**🍴 Food Recommendations:**")
+                st.write(", ".join(day.food_recommendations))
 
-        # st.subheader("📜 Your AI-Generated Travel Itinerary:")
-        # st.markdown(itinerary)
-
-        with st.spinner("Planning your trip..."):
-            placeholder = st.empty()
-            full_response = ""
-    
-            for chunk in plan_trip(data=planner):  # make plan_trip yield chunks
-                full_response += chunk
-                placeholder.markdown(full_response + "▌")  # typewriter cursor
-    
-                placeholder.markdown(full_response)
-
-        logger.info("Response generated")
+        st.success(f"Budget Category: {itinerary.estimated_budget_category}")
+        
+        logger.info("RESPONSE GENERATED")
     else:
-        st.warning("Please fill in the required fields: City and Number of Days.")
+        st.warning("Please enter city and interests")
 
 
