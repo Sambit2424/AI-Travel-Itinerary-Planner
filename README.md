@@ -2,6 +2,8 @@
 
 A production-grade AI Travel Planner built with **LangChain**, **Pydantic Logfire**, and **DeepEval**. This project moves beyond standard chatbots by implementing a strict reliability loop with structured output and expert-level LLM-as-a-judge evaluation framework.
 
+Here is a snapshot of the chatbot at work
+![Travel_Itinerary_Generator](https://github.com/Sambit2424/AI-Travel-Itinerary-Planner/blob/main/project_snapshots/Travel_itinerary_generator.png)
 
 ```mermaid
 graph TD
