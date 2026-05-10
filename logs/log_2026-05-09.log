@@ -1,0 +1,22 @@
+2026-05-09 20:15:18,933 - INFO - Configuration loaded successfully.
+2026-05-09 20:15:18,936 - INFO - Google Serper tool is ready.
+2026-05-09 20:15:18,988 - INFO - Tavily tool is ready.
+2026-05-09 20:15:19,359 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialization.
+2026-05-09 20:15:47,487 - WARNING - Attempting to instrument while already instrumented
+2026-05-09 20:15:47,525 - INFO - Travel Planner initialized
+2026-05-09 20:15:51,689 - INFO - \U0001f3ac Agent Turn Started (History: 1 msgs)
+2026-05-09 20:15:52,375 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 20:15:52,514 - INFO - \u23f3 Catching breath (2s) for TPM refill...
+2026-05-09 20:16:01,032 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 20:16:01,092 - INFO - \u23f3 Catching breath (2s) for TPM refill...
+2026-05-09 20:16:03,096 - INFO - \U0001f3c1 Agent Turn Completed. Cooling down (5s)...
+2026-05-09 20:16:08,100 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Bhubaneshwar 3-day itinerary budget food temples'}
+2026-05-09 20:16:08,100 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Bhubaneshwar current events April 2026'}
+2026-05-09 20:16:08,100 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Bhubaneshwar affordable accommodation'}
+2026-05-09 20:16:08,100 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Bhubaneshwar local food must try'}
+2026-05-09 20:16:08,100 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Bhubaneshwar temple tour'}
+2026-05-09 20:16:08,100 - INFO - Structuring the agent response into TravelPlan model
+2026-05-09 20:16:08,181 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-09 20:16:08,182 - INFO - Retrying request to /openai/v1/chat/completions in 16.000000 seconds
+2026-05-09 20:16:25,771 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-09 20:16:25,858 - INFO - RESPONSE GENERATED

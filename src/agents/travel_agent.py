@@ -19,7 +19,7 @@ chat_model = init_chat_model(
     model="groq:llama-3.3-70b-versatile", # Specify the Groq LLM model to use
     temperature=0.3, # Temperature (range 0-1) controls the creativity of the responses. Lower values = more deterministic, higher values = increase randomness.
     top_p=0.9, # Top-p (nucleus sampling) controls the diversity of the responses. The model considers only the most probable tokens whose cumulative probability adds upto 90%.
-    max_tokens=1800, # Maximum number of tokens in the generated response. Adjust based on your needs and model limits.
+    max_retries=3
 )
 
 print("Chat model initialized with Groq LLM.", chat_model)
@@ -48,10 +48,8 @@ SYSTEM_PROMPT = """
 You are an expert, empathetic travel planner.
 
 Rules:
-1. Always give results as of the current date for accuracy.
-2. Always use web search tools for latest info, events, and pricing.
-3. Include food suggestions, local tips, and travel advice.
-4. Never make up any information.
+1. Always use web search tools to get latest info, events, and pricing as of current date.
+2. Include food suggestions, local tips, and travel advice.
 """.strip()
 
 # Modern LangChain 1.x Agent with Built-in Loop (via LangGraph)

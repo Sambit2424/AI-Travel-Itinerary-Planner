@@ -1,0 +1,43 @@
+2026-05-08 19:58:39,456 - INFO - Configuration loaded successfully.
+2026-05-08 19:58:39,460 - INFO - Google Serper tool is ready.
+2026-05-08 19:58:39,541 - INFO - Tavily tool is ready.
+2026-05-08 19:58:40,126 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialization.
+2026-05-08 19:59:38,532 - WARNING - Attempting to instrument while already instrumented
+2026-05-08 19:59:38,544 - INFO - Travel Planner initialized
+2026-05-08 19:59:40,455 - INFO - \U0001f3ac Agent Turn Started (History: 1 msgs)
+2026-05-08 19:59:41,298 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 19:59:41,429 - INFO - \u23f3 Catching breath (2s) for TPM refill...
+2026-05-08 19:59:51,396 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 19:59:51,420 - INFO - \u23f3 Catching breath (2s) for TPM refill...
+2026-05-08 19:59:53,424 - INFO - \U0001f3c1 Agent Turn Completed. Cooling down (5s)...
+2026-05-08 19:59:53,436 - WARNING - Attempting to instrument while already instrumented
+2026-05-08 19:59:53,454 - INFO - Travel Planner initialized
+2026-05-08 19:59:53,464 - INFO - \U0001f3ac Agent Turn Started (History: 1 msgs)
+2026-05-08 19:59:53,577 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-08 19:59:53,578 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-05-08 19:59:55,193 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 19:59:55,229 - INFO - \u23f3 Catching breath (2s) for TPM refill...
+2026-05-08 19:59:58,424 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Bahamas weather in May 2026'}
+2026-05-08 19:59:58,424 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'best beaches in Bahamas for relaxation'}
+2026-05-08 19:59:58,424 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'party spots in Bahamas'}
+2026-05-08 19:59:58,424 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'mid-range accommodations in Bahamas'}
+2026-05-08 19:59:58,424 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'things to do in Bahamas for a balanced 4-day trip'}
+2026-05-08 19:59:58,424 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Bahamas events in May 2026'}
+2026-05-08 19:59:58,424 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'best local food in Bahamas'}
+2026-05-08 19:59:58,424 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'travel tips for Bahamas in May'}
+2026-05-08 19:59:58,424 - INFO - Structuring the agent response into TravelPlan model
+2026-05-08 19:59:58,475 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-08 19:59:58,475 - INFO - Retrying request to /openai/v1/chat/completions in 41.000000 seconds
+2026-05-08 20:00:02,525 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-05-08 20:00:02,525 - ERROR - Planner error: Error code: 413 - {'error': {'message': 'Request too large for model `llama-3.3-70b-versatile` in organization `org_01kgjbh4pzfvb8n0dywhj1krjx` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 12042, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-08 20:00:25,990 - WARNING - Attempting to instrument while already instrumented
+2026-05-08 20:00:25,999 - INFO - Travel Planner initialized
+2026-05-08 20:00:26,005 - INFO - \U0001f3ac Agent Turn Started (History: 1 msgs)
+2026-05-08 20:00:26,676 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 20:00:26,737 - INFO - \u23f3 Catching breath (2s) for TPM refill...
+2026-05-08 20:00:34,828 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-05-08 20:00:34,832 - ERROR - Planner error: Error code: 413 - {'error': {'message': 'Request too large for model `llama-3.3-70b-versatile` in organization `org_01kgjbh4pzfvb8n0dywhj1krjx` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 12350, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-05-08 20:00:39,574 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-08 20:00:39,575 - INFO - Retrying request to /openai/v1/chat/completions in 10.000000 seconds
+2026-05-08 20:00:51,637 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-08 20:00:51,660 - INFO - Shutdown called, ignoring Span.

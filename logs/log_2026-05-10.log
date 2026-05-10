@@ -1,0 +1,87 @@
+2026-05-10 17:42:47,451 - INFO - Configuration loaded successfully.
+2026-05-10 17:42:47,459 - INFO - Google Serper tool is ready.
+2026-05-10 17:42:47,611 - INFO - Tavily tool is ready.
+2026-05-10 17:42:48,858 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialization.
+2026-05-10 17:43:28,884 - WARNING - Attempting to instrument while already instrumented
+2026-05-10 17:43:28,895 - INFO - Travel Planner initialized
+2026-05-10 17:43:31,221 - INFO - \U0001f3ac Agent Turn Started (History: 1 msgs)
+2026-05-10 17:43:31,986 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 17:43:32,074 - INFO - \u23f3 Catching breath (2s) for TPM refill...
+2026-05-10 17:43:34,086 - INFO - Tavily Search Tool called with query: Sydney mid-range accommodations for 5-day trip in February 2026
+2026-05-10 17:43:34,088 - INFO - Tavily Search Tool called with query: Sydney hiking trails near city
+2026-05-10 17:43:34,095 - INFO - Tavily Search Tool called with query: Sydney surfing spots for beginners
+2026-05-10 17:43:34,122 - INFO - Tavily Search Tool called with query: Sydney food scene and local restaurants
+2026-05-10 17:43:34,145 - INFO - Tavily Search Tool called with query: Sydney local tips and travel advice for mid-range travelers
+2026-05-10 17:43:38,745 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 17:43:38,773 - INFO - \u23f3 Catching breath (2s) for TPM refill...
+2026-05-10 17:43:40,774 - INFO - \U0001f3c1 Agent Turn Completed. Cooling down (5s)...
+2026-05-10 17:43:45,778 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Sydney mid-range accommodations for 5-day trip in February 2026'}
+2026-05-10 17:43:45,778 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Sydney hiking trails near city'}
+2026-05-10 17:43:45,778 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Sydney surfing spots for beginners'}
+2026-05-10 17:43:45,778 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Sydney food scene and local restaurants'}
+2026-05-10 17:43:45,778 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Sydney events and festivals in February 2026'}
+2026-05-10 17:43:45,778 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Sydney local tips and travel advice for mid-range travelers'}
+2026-05-10 17:43:45,778 - INFO - Structuring the agent response into TravelPlan model
+2026-05-10 17:43:45,909 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-10 17:43:45,909 - INFO - Retrying request to /openai/v1/chat/completions in 9.000000 seconds
+2026-05-10 17:43:56,567 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 17:43:56,767 - INFO - RESPONSE GENERATED
+2026-05-10 17:45:21,063 - INFO - Configuration loaded successfully.
+2026-05-10 17:45:21,071 - INFO - Google Serper tool is ready.
+2026-05-10 17:45:21,205 - INFO - Tavily tool is ready.
+2026-05-10 17:45:22,089 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialization.
+2026-05-10 17:45:59,322 - WARNING - Attempting to instrument while already instrumented
+2026-05-10 17:45:59,347 - INFO - Travel Planner initialized
+2026-05-10 17:46:01,349 - INFO - \U0001f3ac Agent Turn Started (History: 1 msgs)
+2026-05-10 17:46:02,249 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 17:46:02,430 - INFO - \u23f3 Catching breath (2s) for TPM refill...
+2026-05-10 17:46:04,437 - INFO - Tavily Search Tool called with query: Goa luxury travel guide June 2026
+2026-05-10 17:46:04,462 - INFO - Tavily Search Tool called with query: best luxury hotels in Goa for relaxed vacation
+2026-05-10 17:46:04,495 - INFO - Tavily Search Tool called with query: Goa food and restaurant recommendations for luxury travelers
+2026-05-10 17:46:09,372 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 17:46:09,403 - INFO - \u23f3 Catching breath (2s) for TPM refill...
+2026-05-10 17:46:11,408 - INFO - \U0001f3c1 Agent Turn Completed. Cooling down (5s)...
+2026-05-10 17:46:16,412 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Goa luxury travel guide June 2026'}
+2026-05-10 17:46:16,412 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Goa party cultural music events June 2026'}
+2026-05-10 17:46:16,412 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'best luxury hotels in Goa for relaxed vacation'}
+2026-05-10 17:46:16,412 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Goa local tips and advice for luxury travelers June 2026'}
+2026-05-10 17:46:16,412 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Goa food and restaurant recommendations for luxury travelers'}
+2026-05-10 17:46:16,414 - INFO - Structuring the agent response into TravelPlan model
+2026-05-10 17:46:18,273 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 17:46:18,484 - INFO - RESPONSE GENERATED
+2026-05-10 17:49:18,761 - INFO - Configuration loaded successfully.
+2026-05-10 17:49:18,770 - INFO - Google Serper tool is ready.
+2026-05-10 17:49:18,912 - INFO - Tavily tool is ready.
+2026-05-10 17:49:19,825 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialization.
+2026-05-10 17:51:28,020 - INFO - Configuration loaded successfully.
+2026-05-10 17:51:28,029 - INFO - Google Serper tool is ready.
+2026-05-10 17:51:28,136 - INFO - Tavily tool is ready.
+2026-05-10 17:51:28,900 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialization.
+2026-05-10 17:52:08,175 - INFO - Configuration loaded successfully.
+2026-05-10 17:52:08,186 - INFO - Google Serper tool is ready.
+2026-05-10 17:52:08,290 - INFO - Tavily tool is ready.
+2026-05-10 17:52:09,143 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialization.
+2026-05-10 17:52:56,073 - WARNING - Attempting to instrument while already instrumented
+2026-05-10 17:52:56,085 - INFO - Travel Planner initialized
+2026-05-10 17:52:57,252 - INFO - \U0001f3ac Agent Turn Started (History: 1 msgs)
+2026-05-10 17:52:57,925 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 17:52:58,031 - INFO - \u23f3 Catching breath (2s) for TPM refill...
+2026-05-10 17:53:00,039 - INFO - Tavily Search Tool called with query: Istanbul luxury travel guide October 2026
+2026-05-10 17:53:00,055 - INFO - Tavily Search Tool called with query: Istanbul best food and shopping destinations
+2026-05-10 17:53:00,080 - INFO - Tavily Search Tool called with query: Istanbul relaxation and wellness activities
+2026-05-10 17:53:04,762 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 17:53:04,783 - INFO - \u23f3 Catching breath (2s) for TPM refill...
+2026-05-10 17:53:06,786 - INFO - \U0001f3c1 Agent Turn Completed. Cooling down (5s)...
+2026-05-10 17:53:11,790 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Istanbul luxury travel guide October 2026'}
+2026-05-10 17:53:11,790 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Istanbul weather October 2026'}
+2026-05-10 17:53:11,790 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Istanbul best food and shopping destinations'}
+2026-05-10 17:53:11,790 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Istanbul luxury hotels and resorts'}
+2026-05-10 17:53:11,792 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Istanbul relaxation and wellness activities'}
+2026-05-10 17:53:11,792 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Istanbul events and festivals October 2026'}
+2026-05-10 17:53:11,792 - INFO - Structuring the agent response into TravelPlan model
+2026-05-10 17:53:13,653 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 17:53:13,933 - INFO - RESPONSE GENERATED
+2026-05-10 18:02:02,742 - INFO - Configuration loaded successfully.
+2026-05-10 18:02:02,751 - INFO - Google Serper tool is ready.
+2026-05-10 18:02:02,835 - INFO - Tavily tool is ready.
+2026-05-10 18:02:03,768 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialization.
