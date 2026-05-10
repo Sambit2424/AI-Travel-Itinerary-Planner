@@ -5,6 +5,8 @@ A production-grade AI Travel Planner built with **LangChain**, **Pydantic Logfir
 Here is a snapshot of the Travel Itinerary Generator UI:
 ![Travel_Itinerary_Generator](https://github.com/Sambit2424/AI-Travel-Itinerary-Planner/blob/main/project_snapshots/Travel_itinerary_generator.png)
 
+
+Here's how the project workflow looks like:
 ```mermaid
 graph TD
     User([User Request]) --> UI[Streamlit UI]
