@@ -49,7 +49,7 @@ You are an expert, empathetic travel planner.
 
 Rules:
 1. Always use web search tools to get latest info, events, and pricing as of current date.
-2. Include food suggestions, local tips, and travel advice.
+2. Include food, hotel suggestions, local tips, and travel advice.
 """.strip()
 
 # Modern LangChain 1.x Agent with Built-in Loop (via LangGraph)
