@@ -1,0 +1,22 @@
+2026-05-11 08:59:41,266 - INFO - Configuration loaded successfully.
+2026-05-11 08:59:41,273 - INFO - Google Serper tool is ready.
+2026-05-11 08:59:41,294 - INFO - Tavily tool is ready.
+2026-05-11 08:59:41,527 - INFO - Modern LangChain v1.x Travel Agent with Middleware initialization.
+2026-05-11 09:02:33,521 - WARNING - Attempting to instrument while already instrumented
+2026-05-11 09:02:33,541 - INFO - Travel Planner initialized
+2026-05-11 09:02:35,827 - INFO - \U0001f3ac Agent Turn Started (History: 1 msgs)
+2026-05-11 09:02:36,469 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 09:02:36,580 - INFO - \u23f3 Catching breath (2s) for TPM refill...
+2026-05-11 09:02:38,586 - INFO - Tavily Search Tool called with query: Barcelona luxury travel guide November 2026
+2026-05-11 09:02:38,620 - INFO - Tavily Search Tool called with query: best restaurants in Barcelona for luxury food experience November 2026
+2026-05-11 09:02:38,644 - INFO - Tavily Search Tool called with query: luxury hotels in Barcelona for 5-day stay November 2026
+2026-05-11 09:02:43,481 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-11 09:02:43,514 - INFO - \u23f3 Catching breath (2s) for TPM refill...
+2026-05-11 09:02:45,518 - INFO - \U0001f3c1 Agent Turn Completed. Cooling down (5s)...
+2026-05-11 09:02:50,520 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'Barcelona luxury travel guide November 2026'}
+2026-05-11 09:02:50,520 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Barcelona football stadium tour November 2026'}
+2026-05-11 09:02:50,520 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'best restaurants in Barcelona for luxury food experience November 2026'}
+2026-05-11 09:02:50,522 - INFO - Agent used tool: google_serper_search_tool with args: {'query': 'Barcelona cultural events November 2026'}
+2026-05-11 09:02:50,522 - INFO - Agent used tool: tavily_search_tool with args: {'query': 'luxury hotels in Barcelona for 5-day stay November 2026'}
+2026-05-11 09:02:50,522 - INFO - Structuring the agent response into TravelPlan model
+2026-05-11 09:02:52,699 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
