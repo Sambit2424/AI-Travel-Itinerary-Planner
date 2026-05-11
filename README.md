@@ -3,17 +3,21 @@
 A production-grade AI Travel Planner built with **LangChain**, **Pydantic Logfire**, and **DeepEval**. This project moves beyond standard chatbots by implementing a strict reliability loop with structured output and expert-level LLM-as-a-judge evaluation framework.
 
 Here is a snapshot of the user inputs for Travel Itinerary Generator UI:
-![Travel_Itinerary_Generator](https://github.com/Sambit2424/AI-Travel-Itinerary-Planner/blob/main/project_snapshots/Travel_itinerary_generator.png)
+![Travel_Itinerary_Generator](https://github.com/Sambit2424/AI-Travel-Itinerary-Planner/blob/main/project_snapshots/Travel_planner_ui_user_inputs.png)
 
-Here are snapshots of the query result
+Here are snapshots of the query result:
+
 Query Result Part 1
+![Query_Result_Part_1](https://github.com/Sambit2424/AI-Travel-Itinerary-Planner/blob/main/project_snapshots/Query_Result_Part_1.png)
 
 Query Result Part 2
+![Query_Result_Part_2](https://github.com/Sambit2424/AI-Travel-Itinerary-Planner/blob/main/project_snapshots/Query_Result_Part_2.png
 
 Query Result Part 3
+![Query_Result_Part_3](https://github.com/Sambit2424/AI-Travel-Itinerary-Planner/blob/main/project_snapshots/Query_Result_Part_3.png)
 
 The broader techstack that was used is mentioned below:
-
+![AI_travel_planner_techstack](https://github.com/Sambit2424/AI-Travel-Itinerary-Planner/blob/main/project_snapshots/ai_travel_planner_techstack.png)
 
 Here's how the project workflow looks like:
 ```mermaid
